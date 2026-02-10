@@ -1,8 +1,8 @@
-package io.spring.ai.service;
+package io.springai.ext.server.service;
 
-import io.spring.ai.session.Request;
-import io.spring.ai.session.Session;
-import io.spring.ai.session.SessionManager;
+import io.springai.ext.server.session.Request;
+import io.springai.ext.server.session.Session;
+import io.springai.ext.server.session.SessionManager;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Service;
 

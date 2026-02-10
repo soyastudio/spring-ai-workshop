@@ -1,6 +1,6 @@
-package io.spring.ai.component;
+package io.springai.ext.server.component;
 
-import io.spring.ai.session.Session;
+import io.springai.ext.server.session.Session;
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.beans.factory.annotation.Autowired;

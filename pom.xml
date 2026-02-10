@@ -2,11 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.spring.ai</groupId>
-    <artifactId>spring-ai-workshop</artifactId>
+    <groupId>io.springai.ext</groupId>
+    <artifactId>springai-ext-workshop</artifactId>
     <packaging>pom</packaging>
-    <name>Spring-AI-Workshop</name>
-    <version>1.0-SNAPSHOT</version>
+    <name>springai-ext-workshop</name>
+    <version>0.0.1-SNAPSHOT</version>
     <url>https://github.com/</url>
 
     <properties>
@@ -21,8 +21,10 @@
     </dependencyManagement>
 
     <modules>
-        <module>spring-ai-core</module>
-        <module>spring-ai-camel</module>
+        <module>springai-ext-commons</module>
+        <module>springai-ext-core</module>
+        <module>springai-ext-starter</module>
+        <module>springai-ext-platform</module>
     </modules>
 
 </project>

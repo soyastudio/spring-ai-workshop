@@ -1,4 +1,4 @@
-package io.spring.ai;
+package io.springai.ext.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.event.EventListener;
 
 @SpringBootApplication
-public class SpringAiCamelApplication {
+public class SpringaiExtApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringAiCamelApplication.class, args);
+		SpringApplication.run(SpringaiExtApplication.class, args);
 	}
 
 	@EventListener(classes = {ApplicationReadyEvent.class})

@@ -1,7 +1,7 @@
-package io.spring.ai.controller;
+package io.springai.ext.server.controller;
 
-import io.spring.ai.service.Dispatcher;
-import io.spring.ai.session.Session;
+import io.springai.ext.server.service.Dispatcher;
+import io.springai.ext.server.session.Session;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

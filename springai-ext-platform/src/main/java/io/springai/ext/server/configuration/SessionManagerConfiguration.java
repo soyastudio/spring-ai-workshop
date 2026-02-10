@@ -1,8 +1,8 @@
-package io.spring.ai.configuration;
+package io.springai.ext.server.configuration;
 
-import io.spring.ai.session.Request;
-import io.spring.ai.session.Session;
-import io.spring.ai.session.SessionManager;
+import io.springai.ext.server.session.Request;
+import io.springai.ext.server.session.Session;
+import io.springai.ext.server.session.SessionManager;
 import org.springframework.cache.Cache;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CacheEvict;

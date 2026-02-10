@@ -1,4 +1,4 @@
-package io.spring.ai.service;
+package io.springai.ext.server.service;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;

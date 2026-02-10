@@ -1,9 +1,6 @@
-package io.spring.ai.controller;
+package io.springai.ext.server.controller;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import io.spring.ai.service.ChatService;
-import org.springframework.ai.embedding.EmbeddingResponse;
+import io.springai.ext.server.service.ChatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

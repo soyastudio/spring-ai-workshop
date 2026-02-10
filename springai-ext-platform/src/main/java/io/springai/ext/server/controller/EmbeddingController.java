@@ -1,8 +1,8 @@
-package io.spring.ai.controller;
+package io.springai.ext.server.controller;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import io.spring.ai.service.EmbeddingService;
+import io.springai.ext.server.service.EmbeddingService;
 import org.springframework.ai.embedding.EmbeddingResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

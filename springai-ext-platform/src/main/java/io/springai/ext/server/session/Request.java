@@ -1,4 +1,4 @@
-package io.spring.ai.session;
+package io.springai.ext.server.session;
 
 import jakarta.servlet.http.HttpServletRequest;
 
